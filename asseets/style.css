@@ -10,7 +10,7 @@ body {
   background: url(img/bg-desktop-red.webp);
   font-family: Josefin Sans;
 }
-.cartao__conteudo {
+.Cartao_Conteudo {
     background-color: var(--card-front-color);
     text-align: center;
     height: 100%;
@@ -19,16 +19,16 @@ body {
     display: flex;
     flex-wrap: wrap;
   }
-  .cartao {
+  .Cartao {
     margin: 1rem 1rem;
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
   }
-  .cartao__conteudo p {
+  .Cartao_Conteudo p {
     padding: 4rem;
   }
-  .cartao__conteudo h3 {
+  .Cartao_Conteudo h3 {
     color: var(--text-color);
     border: 1px solid var(--text-color);
     text-align: left;
@@ -38,10 +38,17 @@ body {
     border-radius: 0.6rem;
     font-size: 1vw;
   }
-  .cartao__conteudo__resposta p {
+  .Cartao_Conteudo_Resposta p {
     color: var(--card-back-color);
     font-weight: 700;
   }
+ .Cartao:hover .Cartao_Conteudo{
+    transform: rotateY(180deg);
+ }
+ .Cartao_Conteudo{
+  transform-style: preserve-3d;
+  transition: transform 300ms ease-in-out;
+ }
   footer {
     background-color: black;
     color: white;
