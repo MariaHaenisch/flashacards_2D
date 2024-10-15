@@ -11,7 +11,7 @@ body {
   font-family: Josefin Sans;
 }
 
-.Cartao_Conteudo {
+.Cartao__Conteudo {
   background-color: var(--card-front-color);
   text-align: center;
   height: 100%;
