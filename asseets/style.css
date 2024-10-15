@@ -67,6 +67,9 @@ body {
   height: 100%;
   width: 100%;
 }
+.Cartao__Conteudo_Resposta{
+  transform: rotateY(180deg);
+}
 
 footer {
   background-color: black;
