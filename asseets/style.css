@@ -48,7 +48,7 @@ body {
 }
 
 .Cartao_Conteudo_Pergunta p {
-  color: var(--card-front-color);
+  color: blue;
   font-weight: 500;
 }
 
