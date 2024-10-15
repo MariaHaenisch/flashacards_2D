@@ -16,7 +16,7 @@ body {
   text-align: center;
   height: 100%;
   transform-style: preserve-3d;
-  transition: transform 300ms ease-in-out;
+  transition: transform 600ms ease-in-out;
 }
 
 #container {
@@ -49,7 +49,7 @@ body {
 
 .Cartao_Conteudo_Pergunta p {
   color: var(--card-front-color);
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .Cartao__Conteudo_Resposta p {
@@ -61,8 +61,10 @@ body {
   transform: rotateY(180deg);
 }
 
-.cartao__conteudo__frente,.cartao__conteudo__verso {
+.Cartao_Conteudo_Pergunta .Cartao__Conteudo_Resposta {
   backface-visibility: hidden;
+  position: absolute;
+  height: 100%;
 }
 
 footer {
