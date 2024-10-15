@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
-:root{
+:root {
   --text-color: #ffffff;
   --card-front-color: #AF3438;
   --card-back-color: #772D2D;
@@ -10,55 +10,70 @@ body {
   background: url(img/bg-desktop-red.webp);
   font-family: Josefin Sans;
 }
+
 .Cartao_Conteudo {
-    background-color: var(--card-front-color);
-    text-align: center;
-    height: 100%;
-  }
-  #container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .Cartao {
-    margin: 1rem 1rem;
-    height: 20rem;
-    flex-grow: 1;
-    flex-basis: calc(33% - 6rem);
-  }
-  .Cartao__Conteudo p {
-    padding: 4rem;
-  }
-  .Cartao__Conteudo h3 {
-    color: var(--text-color);
-    border: 1px solid var(--text-color);
-    text-align: left;
-    padding: 0.5rem;
-    position: absolute;
-    margin: 0.6rem;
-    border-radius: 0.6rem;
-    font-size: 1vw;
-  }
-  .Cartao__Conteudo_Resposta p {
-    color: var(--card-back-color);
-    font-weight: 700;
-  }
- .Cartao:hover .Cartao__Conteudo{
-    transform: rotateY(180deg);
- }
- .Cartao__Conteudo{
+  background-color: var(--card-front-color);
+  text-align: center;
+  height: 100%;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Cartao {
+  margin: 1rem 1rem;
+  height: 20rem;
+  flex-grow: 1;
+  flex-basis: calc(33% - 6rem);
+}
+
+.Cartao__Conteudo p {
+  padding: 4rem;
+}
+
+.Cartao__Conteudo h3 {
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  text-align: left;
+  padding: 0.5rem;
+  position: absolute;
+  margin: 0.6rem;
+  border-radius: 0.6rem;
+  font-size: 1vw;
+}
+
+.Cartao_Conteudo_Pergunta p {
+  color: var(--card-front-color);
+  font-weight: 700;
+}
+
+.Cartao__Conteudo_Resposta p {
+  color: var(--card-back-color);
+  font-weight: 700;
+}
+
+.Cartao:hover .Cartao__Conteudo {
+  transform: rotateY(180deg);
+}
+
+.Cartao__Conteudo {
   transform-style: preserve-3d;
   transition: transform 300ms ease-in-out;
- }
-  footer {
-    background-color: black;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 2rem;
-  }
-  footer p {
-    text-align: center;
-    font-size: 0.6rem;
-    margin-top: 0.5rem;
-  }
+}
+
+footer {
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+}
+
+footer p {
+  text-align: center;
+  font-size: 0.6rem;
+  margin-top: 0.5rem;
+}
