@@ -60,7 +60,7 @@ body {
 .Cartao:hover .Cartao__Conteudo {
   transform: rotateY(180deg);
 }
-}
+
 .cartao__conteudo__frente,.cartao__conteudo__verso {
   backface-visibility: hidden;
 }
