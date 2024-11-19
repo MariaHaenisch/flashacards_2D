@@ -19,5 +19,5 @@ function criaCartao(categoria, pergunta, resposta){
     }
 Cartao.addEventListener('click', viraCartao)
     let container = document.getElementById('container')
-    container.appendChild(cartao)
+    container.appendChild(Cartao)
 }
