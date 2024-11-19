@@ -57,17 +57,19 @@ body {
   font-weight: 700;
 }
 
-.Cartao:hover .Cartao__Conteudo {
+.Cartao.active .Cartao__Conteudo {
   transform: rotateY(180deg);
 }
 
-.Cartao_Conteudo_Pergunta,.Cartao__Conteudo_Resposta {
+.Cartao_Conteudo_Pergunta,
+.Cartao__Conteudo_Resposta {
   backface-visibility: hidden;
   position: absolute;
   height: 100%;
   width: 100%;
 }
-.Cartao__Conteudo_Resposta{
+
+.Cartao__Conteudo_Resposta {
   transform: rotateY(180deg);
 }
 
